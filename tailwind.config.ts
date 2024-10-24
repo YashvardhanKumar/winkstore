@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        "geist-mono": "var(--font-geist-mono)",
+        "geist-sans": "var(--font-geist-sans)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
